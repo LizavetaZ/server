@@ -62,7 +62,7 @@ function App() {
 
             <div>
                 {/*<Input newTitle = {newTitle} setNewTitle = {setNewTitle}/>*/}
-                <Input newTitle={newTitle}/>
+
                 <Button name={'Add ToDo'} callBack={addToDo}/>
             </div>
             <ul>
